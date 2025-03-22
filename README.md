@@ -1,4 +1,4 @@
 # Excel Data Project
 
 
-![excel-to-powerbi-animated-diagram](assets/images/ExcelDataProject.png)
+![excel-data-project](assets/images/Excel_Data_Project.png)
