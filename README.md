@@ -10,6 +10,10 @@
 
 - [Objective](#objective)
 - [Data Source](#data-source)
+- [Design](#design)
+  - [Tools](#tools)
+- [Development](#development)
+  - [Pseudocode](#pseudocode)
 
 # Objective
 
@@ -56,3 +60,54 @@ The ideal solution is to develop a well-structured Excel-based system that organ
   - Income
   - Tier
   - Device Used
+ 
+
+
+# Design 
+
+## Dashboard components required 
+- What should the dashboard contain based on the requirements provided?
+
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+
+1. What is the homeownership status of customers (homeowner, renter, or disclosed)?
+2. What is the average and total sales amount, and how do they reflect revenue trends?
+3. How can customers be classified into low, middle, or high-income tiers based on their income data?
+4. Which product category—dog accessories, dog care, or organic dog food—has the highest sales?
+5. What device (PC, tablet, or phone) is most commonly used for placing orders?
+6. How do sales trends vary by year and quarterly performance?
+
+
+
+## Tools 
+
+
+| Tool | Purpose |
+| --- | --- |
+| Excel | Exploring the data | Data Cleaning | Pivot Tables | PowerPivot | Dashboards |
+| GitHub | Hosting the project documentation and version control |
+
+
+# Development
+
+## Pseudocode
+
+- What's the general approach in creating this solution from start to finish?
+
+1. Get the data
+2. Create a new column in the 'W Customer' sheet.
+3. Call it Tier to use IFS statements, to find if their income is low, middle, or high class.
+4. Go to Power Pivot and click on Data Model for both sheets 'W Customer' and 'W Order'.
+5. Click on diagram view and connect the Customer: Customer ID and Order: Customer ID.
+6. Create new sheets and call it 'Pivot Tables' and 'Dashboards'.
+7. Click on Insert and click on Pivot Tables. Click on the data model.
+8. Create Pivot Tables to find the answer to the questions.
+
+
+
+## Data cleaning 
+- What do we expect the clean data to look like? (What should it contain? What constraints should we apply to it?)
+
+We aim to refine our dataset to ensure it is structured and ready for analysis. 
+
+The cleaned data should meet the following criteria and constraints:
