@@ -24,12 +24,12 @@
 
 - What is the key pain point?
   
-The Data Analyst must structure and analyze sales and customer data for Dog Superstore using Excel to improve customer segmentation, revenue forecasting, and product performance evaluation. The primary goal is to identify key customer demographics, purchasing behaviors, and sales trends. Data from multiple sources, including customer profiles, purchase history, income levels, and product categories, must be organized for accurate reporting. The analyst will develop an Excel-based system, including pivot tables and dashboards, to visualize sales distribution, top-selling products, and device usage for online orders. Additionally, the team wants to assess quarterly sales performance and determine whether specific customer groups drive higher revenue.
+The Data Analyst must structure and analyze sales and customer data for Dog Superstore using Excel to improve customer segmentation, revenue forecasting, and product performance evaluation. The primary goal is to identify key customer demographics, purchasing behaviors, and sales trends. Data from multiple sources must be organized for accurate reporting, including customer profiles, purchase history, income levels, and product categories. The analyst will develop an Excel-based system, including pivot tables and dashboards, to visualize sales distribution, top-selling products, and device usage for online orders. Additionally, the team wants to assess quarterly sales performance and determine whether specific customer groups drive higher revenue.
 
 
 - What is the ideal solution?
 
-The ideal solution is to develop a well-structured Excel-based system that organizes and analyzes sales and customer data effectively. This system should include pivot tables, dashboards, and visual reports to identify key customer demographics, sales trends, and product performance. By integrating data from multiple sources—such as customer profiles, purchase history, income levels, and device usage—the solution will provide actionable insights that help optimize marketing strategies, improve inventory management, and enhance overall business performance.
+The ideal solution is to develop a well-structured Excel-based system that effectively organizes and analyzes sales and customer data. This system should include pivot tables, dashboards, and visual reports to identify key customer demographics, sales trends, and product performance. By integrating data from multiple sources—such as customer profiles, purchase history, income levels, and device usage—the solution will provide actionable insights that help optimize marketing strategies, improve inventory management, and enhance overall business performance.
 
 ## User story
 
@@ -119,7 +119,7 @@ The cleaned data should meet the following criteria and constraints:
 - Filling the empty cells.
 - Creating a new column to find the customer's class level.
 
-![IFS](assets/images/Excel_Data_Project.png)
+![IFS](assets/images/IFS.png)
 
 
 
@@ -146,7 +146,7 @@ Here are the key questions we need to answer for the Dog Superstore Sales & Cust
 | 2    | Rent            | $64.29                  |
 | 3    | Own             | $62.96                  |
 
-![IFS](assets/images/Excel_Data_Project.png)
+![homeownership](assets/images/homeownership.png)
 
 
 ### 2. How can customers be classified into low, middle, or high-income tiers based on their income data?
@@ -157,7 +157,7 @@ Here are the key questions we need to answer for the Dog Superstore Sales & Cust
 | 2    | High            | $9,792                  |
 | 3    | Low             | $5,929                  |
 
-![IFS](assets/images/Excel_Data_Project.png)
+![income](assets/images/income.png)
 
 
 ### 3. Which product category—dog accessories, dog care, or organic dog food—has the highest sales?
@@ -168,7 +168,7 @@ Here are the key questions we need to answer for the Dog Superstore Sales & Cust
 | 2    | Dog Food Organic| $9,670                  |
 | 3    | Dog Accessories | $7,181                  |
 
-![IFS](assets/images/Excel_Data_Project.png)
+![device](assets/images/device.png)
 
 
 ### 4. What device (PC, tablet, or phone) is most commonly used for placing orders?
@@ -179,7 +179,7 @@ Here are the key questions we need to answer for the Dog Superstore Sales & Cust
 | 2    | Phone          | $11,334          |
 | 3    | Tablet         | $5,700           |
 
-![IFS](assets/images/Excel_Data_Project.png)
+![yearlysales](assets/images/yearlysales.png)
 
 
 ### 5. How do sales trends vary by year and quarterly performance?
@@ -204,7 +204,7 @@ Here are the key questions we need to answer for the Dog Superstore Sales & Cust
        | Qtr 3        | $3,025                 |
        | Qtr 4        | $2,976                 |
 
-![IFS](assets/images/Excel_Data_Project.png)
+![product](assets/images/product.png)
 
 
 
@@ -221,7 +221,7 @@ Engage Homeowners More – Offer home-related deals and financing options to boo
 Use Personalized Marketing – Leverage customer data for targeted campaigns.
 
 
-### 2. Based on customers be classified into low, middle, or high-income tiers based on their income data.
+### 2. Based on customers are classified into low, middle, or high-income tiers based on their income data.
 
 Prioritize Middle-Income Customers – They contribute the most to sales, so focus marketing and loyalty programs on them.
 Re-engage High-Income Customers – Offer premium products, personalized services, or exclusive deals to increase their spending.
@@ -235,7 +235,7 @@ Boost Organic Dog Food Sales – Highlight health benefits and introduce discoun
 Increase Visibility of Dog Accessories – Use upselling strategies, bundling with dog care products, or targeted marketing.
 
 
-### 4. Based on device (PC, tablet, or phone) is most commonly used for placing orders.
+### 4. Based on the device (PC, tablet, or phone) is most commonly used for placing orders.
 
 Optimize the PC Ordering Experience – Since PCs generate the highest sales, enhance the desktop website for better performance and user experience.
 Improve Mobile Shopping – Invest in mobile app development and responsive design to boost phone sales.
